@@ -1,0 +1,44 @@
+@media (max-width:830px) {
+    .nav img{
+        display: block;
+    }
+    .nav__list{
+        display: none;
+    }
+}
+
+@media (max-width:780px) {
+    .hero-info{
+       flex-direction: column;
+       gap: 30px;
+    }
+    .hero-left{
+        width: 100%;
+    }
+
+    .hero-left{
+        display: block;
+        margin: 0 auto;
+    }   
+}
+
+@media (max-width:460px) {
+    .nav{
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 8px;
+        
+    }
+
+    .card{
+            width: 100%;
+            justify-content: space-between;
+    }
+}
+
+@media (max-width:320px) {
+    .card{
+        width: 100%;
+        justify-content: space-between;
+    }
+}
